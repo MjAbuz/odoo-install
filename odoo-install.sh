@@ -131,8 +131,8 @@ sudo git clone --depth 1 --branch $OE_VERSION https://www.github.com/oca/server-
 sudo git clone --depth 1 --branch $OE_VERSION https://www.github.com/oca/helpdesk $OE_HOME/custom/addons/helpdesk
 sudo -H pip3 install -r https://raw.githubusercontent.com/OCA/web/$OE_VERSION/requirements.txt
 sudo -H pip3 install -r https://raw.githubusercontent.com/OCA/server-tools/$OE_VERSION/requirements.txt
-sudo mv ~/theme-common $OE_HOME/custom/addons/
-sudo mv ~/theme-clean $OE_HOME/custom/addons/
+sudo mv ~/theme_common $OE_HOME/custom/addons/
+sudo mv ~/theme_clean $OE_HOME/custom/addons/
 sudo mv ~/website_animate $OE_HOME/custom/addons/
 sudo mv ~/gtica_whatsapp_live_free $OE_HOME/custom/addons/
 echo -e "\n---- Setting permissions on home folder ----"
